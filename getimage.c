@@ -171,7 +171,6 @@ static void process_image(const void *p, int size)
 static int read_frame(void)
 {
         struct v4l2_buffer buf;
-        unsigned int i;
 
         CLEAR(buf);
 
